@@ -5,6 +5,9 @@ This is a digital clock that uses ["Panaplex" planar gas discharge displays](htt
 
 **[Video overview](https://youtu.be/n3AglZmtvWA)**
 
+![](https://pbs.twimg.com/media/DPTJvViX4AAga4Z.jpg)
+
+
 ## Features
 
 - 10-digit display
