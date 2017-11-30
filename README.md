@@ -3,6 +3,8 @@
 This is a digital clock that uses ["Panaplex" planar gas discharge displays](http://www.tube-tester.com/sites/nixie/trade08-panaplex.htm). Panaplex displays are basically Nixie tubes with a seven-segment cathode arrangement instead of one shaped cathode per digit. And they look *awesome*. The uniform orange glow and lack of gaps between segments make them much more visually appealing than LED displays.
 
 
+**[Video overview](https://youtu.be/n3AglZmtvWA)**
+
 ## Features
 
 - 10-digit display
@@ -331,4 +333,6 @@ This means "turn on at 8PM (20:00) and go to sleep at 3AM (03:00) _the next day_
 
 ## Conclusion
 
-Total 
+Total time to project completion was about a month and a half.
+
+Follow me on Twitter for future project updates and random electronics stuff: [@txsector](https://twitter.com/txsector)
