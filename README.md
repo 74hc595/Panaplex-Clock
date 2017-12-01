@@ -334,9 +334,9 @@ If the on-hour is later than or equal to the off-hour, an apostrophe `'` will ap
 This means "turn on at 8PM (20:00) and go to sleep at 3AM (03:00) _the next day_."
 
 
-## Power consumtion
+## Power consupmtion
 
-When the display is active, the clock consumes about 500 mA. However, there seems to be a large inrush of current when the high voltage supply is turned on; if the power supply can't handle it, the supply voltage may drop low enough to trip the PIC's brown-out reset circuit. This manifests as a delay of about a second when touching to wake from sleep. The PIC is resetting, and the clock always goes through a touch sensor calibration cycle after a reset, which takes about one second.
+When the display is active, the clock consumes about 500 mA (2.5 watts). However, there seems to be a large inrush of current when the high voltage supply is turned on; if the power supply can't handle it, the supply voltage may drop low enough to trip the PIC's brown-out reset circuit. This manifests as a delay of about a second when touching to wake from sleep. The PIC is resetting, and the clock always goes through a touch sensor calibration cycle after a reset, which takes about one second.
 
 A high-quality USB power adapter capable of handling at least 1A will prevent this from happening. The Apple 5W Power Adapter (model A1385) works very well. I've seen this happen with cheaper USB adapters that claim to handle 1A.
 
